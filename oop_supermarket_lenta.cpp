@@ -14,9 +14,9 @@ public:
         cout << "Products destroyed" << endl;
     }
 
-    // Виртуальный метод срока годности
+    // Virtual method for shelf life
     virtual string getShelfLife() {
-        return "срок годности не указан";
+        return "shelf life not specified";
     }
 };
 
@@ -34,7 +34,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "3-5 дней в холодильнике";
+        return "3-5 days in refrigerator";
     }
 };
 
@@ -45,7 +45,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "1-2 дня в холодильнике";
+        return "1-2 days in refrigerator";
     }
 };
 
@@ -56,7 +56,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "2-3 дня в холодильнике";
+        return "2-3 days in refrigerator";
     }
 };
 
@@ -67,7 +67,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "3-5 дней в холодильнике, до года в морозилке";
+        return "3-5 days in refrigerator, up to a year in freezer";
     }
 };
 
@@ -78,7 +78,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "5-7 дней в холодильнике";
+        return "5-7 days in refrigerator";
     }
 };
 
@@ -89,7 +89,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "7-10 дней в холодильнике";
+        return "7-10 days in refrigerator";
     }
 };
 
@@ -100,7 +100,7 @@ public:
     }
 
     string getShelfLife() override {
-        return "6-12 месяцев в сухом месте";
+        return "6-12 months in dry place";
     }
 };
 
@@ -111,6 +111,6 @@ public:
     }
 
     string getShelfLife() override {
-        return "3-7 дней при комнатной температуре";
+        return "3-7 days at room temperature";
     }
 };
